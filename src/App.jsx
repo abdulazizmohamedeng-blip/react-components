@@ -5,13 +5,14 @@ import "./App.css";
 import Accordion from "./components/accordion/Accordion";
 import ColorGenerator from "./components/color-generator/ColorGenerator";
 import StarRating from "./components/star-rating/StarRating";
+import Slider from "./components/slider/Slider";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <StarRating stars={8} />
+      <Slider />
     </>
   );
 }
