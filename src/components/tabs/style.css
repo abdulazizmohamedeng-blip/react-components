@@ -1,0 +1,19 @@
+.tabs {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(179, 179, 179);
+}
+
+.tabs .tabs-title {
+  display: flex;
+  background-color: rgb(75, 74, 74);
+}
+.tabs .tabs-title button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: solid 1px #000;
+}
+
+.tabs .tabs-title button.active {
+  background-color: rgb(255, 255, 255);
+}
