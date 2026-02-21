@@ -1,0 +1,56 @@
+.game-container {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #3b3b5c;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: #fff;
+}
+
+.cell:hover {
+  background-color: #4a4a75;
+  transform: scale(1.05);
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #6c63ff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.reset-btn:hover {
+  background-color: #5848e5;
+}
